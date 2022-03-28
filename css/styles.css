@@ -1,0 +1,73 @@
+body{
+    color: #fff;
+    background-color: #2FDD92;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+
+/* Title Section  */
+
+#title{
+    padding: 2% 10%; 
+}
+
+.game-name{
+    font-family: 'Imperial Script', cursive;
+    /* text-align: center; */
+}
+
+.game-name h1{
+    font-size: 5rem;
+}
+
+/* Content Section  */
+
+#content{
+    padding: 1% 10%; 
+}
+
+.green-box{
+    height: 10rem;
+    width: 10rem;
+    background-color: green;
+    border: white 5px solid;
+    border-radius: 20px
+}
+
+.red-box{
+    height: 10rem;
+    width: 10rem;
+    background-color: red;
+    border: white 5px solid;
+    border-radius: 20px
+}
+
+.yellow-box{
+    height: 10rem;
+    width: 10rem;
+    background-color: yellow;
+    border: white 5px solid;
+    border-radius: 20px
+}
+
+.blue-box{
+    height: 10rem;
+    width: 10rem;
+    background-color: blue;
+    border: white 5px solid;
+    border-radius: 20px
+}
+
+.box{
+    padding: 30px 200px;
+}
+
+.blue-box:hover, .green-box:hover, .red-box:hover, .yellow-box:hover{
+    box-shadow: 10px 5px 5px #fff;
+}
+
+.box-show{
+    border-color: black;
+}
+
